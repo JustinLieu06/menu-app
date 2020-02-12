@@ -3,7 +3,6 @@ import classes from './Item.module.css';
 
 class Item extends Component {
   render(){
-    console.log(this.props.info);
     let menuItem = null;
     menuItem = (
       <div className={classes.Item}>
